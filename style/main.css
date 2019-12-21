@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background: #fff;
+  background-image: url(../img/ebbyware-bg.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+}
+
+main {
+  padding: 70px 20px 35px 20px;
+  margin: 0 auto;
+  min-width: 24rem;
+  max-width: 48rem;
+}
+
+main a {
+  color: #f0a4a4;
+}
+
+main a:hover {
+  color: #ffa4a4;
+}
+
+h1, h2, h3  {
+  font-family: 'Lobster', cursive;
+}
+
+.updated {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+#contact {
+  margin-top: .5em;
+}
+
+.card {
+  border-color: #ffa4a4;
+  width: 18rem;
+}
+
+.product-block {
+  display: flex;
+  margin: 20px;
+}
+
+.product-block h2, .product-block p {
+  margin: 20px;
+}
+
+.product-block a {
+  color: black;
+}
+
+.product-block a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.product-block img {
+  height: 192px;
+  border: solid 1px #ffa4a4;
+}
+
+.product-block div {
+  width: 384px;
+  min-width: 384px;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffa4a4;
+  font-family: 'Lobster', cursive;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 2em;
+  width: 100%;
+  background-color: #ffa4a4;
+  color: white;
+  font-size: .8em;
+  font-family: 'Lobster', cursive;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a {
+  color: rgba(255, 255, 255, .5);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, .75);
+  text-decoration: none;
+}
+
+footer .footer-left {
+  padding-left: 1em;
+}
+
+footer .footer-right {
+  padding-right: 1em;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #ffa4a4;
+  border-color: #fff;
+}
+
+.back-to-top:hover,
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus,
+.btn.btn-primary.active,
+.btn.btn-primary:active:focus {
+  color: #fff;
+  background: #f0a0a0;
+  border-color: #fff;
+  outline: none;
+  box-shadow: 0 0 0.2rem 0.2rem rgba(240, 160, 160, 0.75) !important;
+}
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  display:none;
+  color: #fff;
+  background: #ffa4a4;
+  border-color: #fff;
+}
+
+.carousel img {
+  height: 196px;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  background: #f0a0a0;
+}
+
+.carousel-item .carousel-caption {
+  background: rgba(240, 160, 160, 0.45);
+}
+
+#project {
+  margin: .5rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#features ul {
+  margin-left: 1.5em;
+}
+
+#usage ol {
+  margin-left: 1.5em;
+}
+
+@media(max-width:575px) {
+
+#project {
+  margin: .5rem 0;
+  flex-direction: column;
+}
+
+}
